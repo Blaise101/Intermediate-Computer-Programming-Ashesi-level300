@@ -33,4 +33,5 @@ int main(){
   cout << r << "!= " << factorial(r) << endl;
   cout << n << "P" << r << "=" << permutation(n, r) << endl;
   cout << n << "C" << r << "=" << combinatorics(n, r) << endl;
+  return 0;
 }
