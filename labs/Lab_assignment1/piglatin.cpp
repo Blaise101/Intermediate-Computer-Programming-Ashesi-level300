@@ -3,45 +3,45 @@
 
 using namespace std;
 
-bool isVowel(char c) {
-    return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+bool isVowel(char ch) {
+  return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
 }
 
-string pigLatinReturn(string str) {
-    size_t vowelIndex = 0;
-    
-    while (vowelIndex < str.length() && !isVowel(str[vowelIndex])) {
-        vowelIndex++;
-    }
-    
-    string prefix = str.substr(0, vowelIndex);
-    string suffix = str.substr(vowelIndex);
-    
-    return suffix + prefix + "ay";
+string pigLatinReturn(string word) {
+  int vowelIndex = 0;
+  
+  while (vowelIndex < word.length() && !isVowel(word[vowelIndex])) {
+    vowelIndex++;
+  }
+  
+  string firstPart = word.substr(0, vowelIndex);
+  string lastPart = word.substr(vowelIndex);
+  
+  return lastPart + firstPart + "ay";
 }
 
-void pigLatinReference(string& str) {
-    size_t vowelIndex = 0;
-    
-    while (vowelIndex < str.length() && !isVowel(str[vowelIndex])) {
-        vowelIndex++;
-    }
-    
-    string prefix = str.substr(0, vowelIndex);
-    string suffix = str.substr(vowelIndex);
-    
-    str = suffix + prefix + "ay";
+void pigLatinReference(string& word) {
+  int vowelIndex = 0;
+  
+  while (vowelIndex < word.length() && !isVowel(word[vowelIndex])) {
+    vowelIndex++;
+  }
+  
+  string firstPart = word.substr(0, vowelIndex);
+  string lastPart = word.substr(vowelIndex);
+  
+  word = lastPart + firstPart + "ay";
 }
 
 int main() {
-    string name = "julie";
+  string name = "julie";
 
-    string str1 = pigLatinReturn(name);
-    cout << "pigLatinReturn(\"julie\"): " << str1 << endl;
-    cout << "Original name variable: " << name << endl;
-    
-    pigLatinReference(name);
-    cout << "pigLatinReference(name):  " << name << endl;
+  string str1 = pigLatinReturn(name);
+  cout << "pigLatinReturn(\"julie\"): " << str1 << endl;
+  cout << "Original name variable: " << name << endl;
+  
+  pigLatinReference(name);
+  cout << "pigLatinReference(name):  " << name << endl;
 
-    return 0;
+  return 0;
 }
