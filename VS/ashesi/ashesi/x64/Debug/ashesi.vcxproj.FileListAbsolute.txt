@@ -1,0 +1,3 @@
+C:\Users\izeri\Desktop\data\Blaise101\Intermediate-Computer-Programming-Ashesi-level300\VS\ashesi\ashesi\x64\Debug\ashesi.vcxproj.AssemblyReference.cache
+C:\Users\izeri\Desktop\data\Blaise101\Intermediate-Computer-Programming-Ashesi-level300\VS\ashesi\ashesi\x64\Debug\ashesi.MyForm.resources
+C:\Users\izeri\Desktop\data\Blaise101\Intermediate-Computer-Programming-Ashesi-level300\VS\ashesi\ashesi\x64\Debug\ashesi.vcxproj.GenerateResource.cache

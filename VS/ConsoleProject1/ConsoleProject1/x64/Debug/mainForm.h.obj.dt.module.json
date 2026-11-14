@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "ConsoleProject1\\x64\\Debug\\mainForm.obj",
+            "outputs": [
+                "ConsoleProject1\\x64\\Debug\\mainForm.h.obj.dt.module.json",
+                "ConsoleProject1\\x64\\Debug\\mainForm.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

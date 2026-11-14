@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "ashesi\\x64\\Debug\\MyForm.obj",
+            "outputs": [
+                "ashesi\\x64\\Debug\\MyForm.h.obj.dt.module.json",
+                "ashesi\\x64\\Debug\\MyForm.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

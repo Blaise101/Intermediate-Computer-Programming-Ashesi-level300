@@ -9,11 +9,9 @@ int main() {
     for (int space = 0; space < halfRows - i; space++) {
       cout << " ";
     }
-    
     for (int star = 0; star < i; star++) {
       cout << "* ";
     }
-    
     cout << endl;
   }
 
@@ -22,11 +20,9 @@ int main() {
     for (int space = 0; space < halfRows - i; space++) {
       cout << " ";
     }
-    
     for (int star = 0; star < i; star++) {
       cout << "* ";
     }
-    
     cout << endl;
   }
 
