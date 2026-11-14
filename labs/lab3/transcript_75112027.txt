@@ -1,0 +1,7 @@
+Name: Kwame Boateng ID: 75112027
+
+Code      Title                              Credits   Score   Grade
+ECON101   Microeconomics                     1         63      C
+BUSA221   Business Law                       1         58      D
+
+GPA: 1.50 | Credits earned: 2.00 | Standing: Academic Probation

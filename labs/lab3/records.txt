@@ -1,0 +1,8 @@
+STUDENT 61242027 "Ama Serwaa Mensah"
+STUDENT 75112027 "Kwame Boateng"
+COURSE 61242027 CS313 "Intermediate Computer Programming" 1.0 84
+COURSE 61242027 MATH221 "Statistics and Probability" 1.0 105
+COURSE 61242027 CS341 "Web Technologies" 1.0 64
+COURSE 12345678 CS313 "Intermediate Computer Programming" 1.0 77
+COURSE 75112027 ECON101 "Microeconomics" 1.0 63
+GRADE 75112027 BUSA221 "Business Law" 1.0 58

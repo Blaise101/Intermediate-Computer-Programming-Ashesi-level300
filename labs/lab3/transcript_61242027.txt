@@ -1,0 +1,7 @@
+Name: Ama Serwaa Mensah ID: 61242027
+
+Code      Title                              Credits   Score   Grade
+CS313     Intermediate Computer Programming  1         84      A
+CS341     Web Technologies                   1         64      C
+
+GPA: 3.00 | Credits earned: 2.00 | Standing: Good Standing
